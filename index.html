@@ -16,6 +16,7 @@
         <link rel="icon" href="multimedia/csspng.png">
         <link rel="stylesheet" href="styles.css">
     </head>
+    <body>
         <div class="mensaje">
             <img src="multimedia/cruz.png" alt="Tip" width="30px" class="cruz">
             <small>Esta pagina aun esta desarrollandose.</small>
@@ -26,8 +27,8 @@
             <li><a href="#background-color">background-color</a></li>
             <li><a href="#font">font-family y font-size</a></li>
             <li><a href="#color">color</a></li>
-            <li>text-align</li>
-            <li>text-decoration</li>
+            <li><a href="#textalign">text-align</a></li>
+            <li><a href="#decoracion">text-decoration</a></li>
             <li>border</li>
             <li>border-radius</li>
             <li>border-width</li>
@@ -36,10 +37,13 @@
             <li>height,margin,padding,width</li>
             <li>pseudo-class</li>
         </ol>
+        </div>
     </aside>
-    <body> <div class="contenido"> <header>
-        <p class="titulo">Curso CSS (Basico)</p>
-        </header>
+    <main>
+        <div class="contenido">
+            <header>
+                <p class="titulo">Curso CSS (Basico)</p>
+            </header>
         <p>CSS es un lenguaje para diseñar las paginas webs y siempre esta a la par de HTML.</p>
         <p>Hoy veras algo nuevo sobre CSS pero antes hay que repasar cosas sobre HTML.</p>
         <p>En HTML hay cosas importantes para CSS, una de ellas es class="nombre-de-la-clase" que se encuentran adentro de etiquetas.</p>
@@ -82,7 +86,36 @@
         <h2 class="color">color</h2>
         <p>La propiedad color sirve para cambiar el color del texto.<br>Se puede usar para cambiar el color de una pagina o otros elementos que veremos mas tarde.</p>
         <p>La sintaxis de color es: color: valor;<br>El valor puede ser los mismos a los de background-color</p>
+        <p>El cambio entre background-color y color es que el primero cambia el color de fondo y el segundo cambia el color del texto.</p>
+        <img src="multimedia/color.png" alt="Color del texto" class="multimedia" width="500px">
+        <a name="textalign"></a>
+        <h2 class="align">text-align</h2>
+        <p>La propiedad text-align sirve para cambiar la alineación del texto.<br>Se pueden usar los siguientes valores: </p>
+        <ul>
+            <li>left: alinea el texto a la izquierda</li>
+            <li>right: alinea el texto a la derecha</li>
+            <li>center: centra el texto</li>
+            <li>justify: justifica el texto</li>
+        </ul> <img src="multimedia/align.png" alt="alineamiento" class="multimedia" width="500px">
+        <a name="decoracion"></a>
+        <h2 class="decoration">text-decoration</h2>
+        <p>La propiedad text-decoration sirve para aplicarle diferentes decoraciones al texto y tiene bastantes estilos disponibles.<br>Algunos son: </p>
+        <ul>
+            <li class="dashed">dashed</li>
+            <li class="dotted">dotted</li>
+            <li class="double">double</li>
+            <li class="line">line-through</li>
+            <li class="none">none</li>
+            <li class="overline">overline</li>
+            <li class="solid">solid</li>
+            <li class="underline">underline</li>
+            <li class="wavy">wavy</li>
+        </ul> <p>La mayoria de las decoraciones son para las lineas de texto (underline,overline,etc) y none sirve para cambiar el estilo predeterminado de los enlaces, un ejemplo: <a href="https://github.com/" target="_blank" class="nodecorar">Este enlace te lleva a GitHub</a></p>
+        <a name="border"></a>
+        <h2 class="border">border</h2>
+        <p>La propiedad border al ser usado genera un borde que rodea el texto o elemento que fue seleccionado.<br>El borde de por si toma todo el espacio que puede. (Es un problema que se puede solucionar con herramientas que se vera despues)</p>
         </div>
+    </main>
     </body>
     <script src="script.js"></script>
 </html>

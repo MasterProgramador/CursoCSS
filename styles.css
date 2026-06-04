@@ -1,38 +1,38 @@
 .indice {
-    border: 5px solid black;
-    padding: 20px;
-    border-radius: 20px;
+    border: 0.2em solid black;
+    padding: 1em;
+    border-radius: 1em;
     float: right;
-    margin-top: 20px;
+    margin-top: 2em;
     text-align: center;
     background: linear-gradient(to top, #00ffea, #006eff);
-    margin-right: 50px;
+    margin-right: 3em;
 } .contenido {
-    border: 5px solid black;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
+    border: .2em solid black;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
     background: linear-gradient(to top, #002b28, #00c3ff);
 } .titulo {
     font-size: 250%;
-    border: 5px solid black;
-    border-radius: 10px;
-    padding: 10px;
+    border: 0.2em solid black;
+    border-radius: 0.5em;
+    padding: 0.5em;
     background-color: #000000;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.2em;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-weight: bold;
 } .multimedia {
-    border: 5px solid black;
-    border-radius: 10px;
+    border: 0.5em solid black;
+    border-radius: 1em;
 } p, li {
     color: #ffffff;
     font-family: Verdana ,sans-serif, arial;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 0.1em 0.1em 0.2em #000000;
     font-size: 120%;
 } body {
     background: linear-gradient(to right, #ff7b00, #eeff00, #0000ff);
@@ -46,10 +46,10 @@
 } .multicolor {
     color: #ffffff;
     font-family: Verdana ,sans-serif, arial;
-    text-shadow: 2px 2px 4px #000000;
-    border: 5px solid black;
-    border-radius: 10px;
-    padding: 5px;
+    text-shadow: 0.1em 0.1em 0.2em #000000;
+    border: 0.2em solid black;
+    border-radius: 0.5em;
+    padding: 0.2em;
     width: 25%;
     background-color: #000000;
     text-align: center;
@@ -61,35 +61,35 @@
   50%  { background-color: blue; }
   100% { background-color: green; }
 } .mensaje {
-    border: 5px solid black;
-    padding: 10px;
-    border-radius: 20px;
-    bottom: 20px;
-    right: 20px;
+    border: 0.2em solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    bottom: 1em;
+    right: 1em;
     text-align: center;
     background: linear-gradient(to right, #ff6600, #a70000);
     color: #ffffff;
     font-family: Verdana ,sans-serif, arial;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 0.1em 0.1em 0.2em #000000;
     position: fixed;
 } .cruz {
     position: absolute;
-    top: -12px;
-    right: -12px;
-    font-size: 20px;
-    border: 3px solid black;
+    top: -.5em;
+    right: -.5em;
+    font-size: 1.5em;
+    border: 0.1em solid black;
     border-radius: 50%;
     cursor: pointer;
 } .mensaje small {
-    margin-right: 15px;
+    margin-right: 1em;
     font-weight: bold;
 } h2 {
     color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
-    border: 5px solid black;
+    text-shadow: .1em .1em .2em #000000;
+    border: .2em solid black;
     font-family: Verdana ,sans-serif, arial;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: .5em;
+    padding: .2em;
     width: 25%;
     background-color: #000000;
     text-align: center;
@@ -107,4 +107,58 @@
   0%   { color: red; }
   50%  { color: blue; }
   100% { color: green; }
+} .align {
+    animation: alignchange 1s infinite alternate;
+} @keyframes alignchange {
+  0%   { text-align: left; }
+  50%  { text-align: center; }
+  100% { text-align: right; }
+}
+
+.decoration {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffffff;
+    animation: decorationchange 1s infinite alternate;
+}
+
+@keyframes decorationchange {
+  0% {
+    text-decoration-color: #ffffff;
+  }
+  50% {
+    text-decoration-color: #ffea00;
+  }
+  100% {
+    text-decoration-color: #00ffff;
+  }
+} .dashed {
+    text-decoration:underline dashed;
+} .dotted {
+    text-decoration:underline dotted;
+} .double {
+    text-decoration:underline double;
+} .line {
+    text-decoration:line-through;
+} .none {
+    text-decoration:none;
+} .overline {
+    text-decoration:overline;
+} .solid {
+    text-decoration:underline solid #ffffff;
+} .underline {
+    text-decoration:underline;
+} .wavy {
+    text-decoration:underline wavy;
+} .nodecorar {
+    text-decoration: none;
+} .nodecorar:hover {
+    color: #ffffff;
+} .border {
+    border: .2em solid white;
+    animation: bordercolor 1s infinite alternate; 
+} @keyframes bordercolor {
+    0% {border-color: red;}
+    50% {border-color: blue;}
+    100% {border-color: green;}
 }
