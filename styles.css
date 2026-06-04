@@ -12,7 +12,7 @@
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    background: linear-gradient(to top, #000000, #00c3ff);
+    background: linear-gradient(to top, #002b28, #00c3ff);
 } .titulo {
     font-size: 250%;
     border: 5px solid black;
@@ -85,9 +85,9 @@
     font-weight: bold;
 } h2 {
     color: #ffffff;
-    font-family: Courier New, monospace;
     text-shadow: 2px 2px 4px #000000;
     border: 5px solid black;
+    font-family: Verdana ,sans-serif, arial;
     border-radius: 10px;
     padding: 5px;
     width: 25%;
@@ -95,9 +95,16 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    animation: fontchange 1s infinite alternate;
 } @keyframes fontchange {
   0%   { font-family: Courier New, monospace; }
   50%  { font-family: "comic sans ms", sans-serif; }
   100% { font-family: Verdana, sans-serif; }
+} .font {
+    animation: fontchange 1s infinite alternate;
+} .color {
+    animation: colorchange 1s infinite alternate;
+} @keyframes colorchange {
+  0%   { color: red; }
+  50%  { color: blue; }
+  100% { color: green; }
 }
