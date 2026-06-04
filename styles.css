@@ -21,8 +21,8 @@
     background-color: #000000;
     margin-top: 0;
     margin-bottom: 0.2em;
-    width: 30%;
-    margin-left: auto;
+    width: 50%;
+    margin-left: 3em;
     margin-right: auto;
     text-align: center;
     font-weight: bold;
@@ -161,4 +161,6 @@
     0% {border-color: red;}
     50% {border-color: blue;}
     100% {border-color: green;}
+} .logo, .multimedia {
+    max-width: 100%;
 }
