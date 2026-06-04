@@ -163,4 +163,9 @@
     100% {border-color: green;}
 } .logo, .multimedia {
     max-width: 100%;
+} html { /*hecho por ia*/
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
 }
