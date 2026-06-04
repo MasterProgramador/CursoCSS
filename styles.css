@@ -33,7 +33,6 @@
     background-color: #000000;
     margin-top: 0;
     margin-bottom: 0.2em;
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -56,17 +55,6 @@
     transition: 0.3s;
     color: #ff0000;
 } .multicolor {
-    color: #ffffff;
-    font-family: Verdana ,sans-serif, arial;
-    text-shadow: 0.1em 0.1em 0.2em #000000;
-    border: 0.2em solid black;
-    border-radius: 0.5em;
-    padding: 0.2em;
-    width: 25%;
-    background-color: #000000;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     animation: background 1s infinite alternate;
 } @keyframes background {
   0%   { background-color: red; }
@@ -102,7 +90,6 @@
     font-family: Verdana ,sans-serif, arial;
     border-radius: .5em;
     padding: .2em;
-    width: 25%;
     background-color: #000000;
     text-align: center;
     margin-left: auto;
