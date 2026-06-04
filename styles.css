@@ -1,0 +1,103 @@
+.indice {
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    background: linear-gradient(to top, #00ffea, #006eff);
+    margin-right: 50px;
+} .contenido {
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to top, #000000, #00c3ff);
+} .titulo {
+    font-size: 250%;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #000000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+} .multimedia {
+    border: 5px solid black;
+    border-radius: 10px;
+} p, li {
+    color: #ffffff;
+    font-family: Verdana ,sans-serif, arial;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 120%;
+} body {
+    background: linear-gradient(to right, #ff7b00, #eeff00, #0000ff);
+} .indice li {
+    text-align: left;
+} a {
+    color: #ffffff;
+} a:hover {
+    transition: 0.3s;
+    color: #ff0000;
+} .multicolor {
+    color: #ffffff;
+    font-family: Verdana ,sans-serif, arial;
+    text-shadow: 2px 2px 4px #000000;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 25%;
+    background-color: #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    animation: background 1s infinite alternate;
+} @keyframes background {
+  0%   { background-color: red; }
+  50%  { background-color: blue; }
+  100% { background-color: green; }
+} .mensaje {
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #ff6600, #a70000);
+    color: #ffffff;
+    font-family: Verdana ,sans-serif, arial;
+    text-shadow: 2px 2px 4px #000000;
+    position: fixed;
+} .cruz {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+} .mensaje small {
+    margin-right: 15px;
+    font-weight: bold;
+} h2 {
+    color: #ffffff;
+    font-family: Courier New, monospace;
+    text-shadow: 2px 2px 4px #000000;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 25%;
+    background-color: #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fontchange 1s infinite alternate;
+} @keyframes fontchange {
+  0%   { font-family: Courier New, monospace; }
+  50%  { font-family: "comic sans ms", sans-serif; }
+  100% { font-family: Verdana, sans-serif; }
+}

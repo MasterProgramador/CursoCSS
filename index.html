@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso CSS (Basico)</title>
+        <link rel="icon" href="multimedia/csspng.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+        <div class="mensaje">
+            <img src="multimedia/cruz.png" alt="Tip" width="30px" class="cruz">
+            <small>La mejor manera de aprender es creando proyectos con lo que aprendiste.</small>
+        </div>
+    <aside> <div class="indice"> <img src="multimedia/csspng.png" alt="CSS" width="200px" class="logo">
+        <p>Indice de las propiedades de CSS </p> <ol>
+            <li><a href="#background-color">background-color</a></li>
+            <li><a href="#font">font-family y font-size</a></li>
+            <li>color</li>
+            <li>text-align</li>
+            <li>text-decoration</li>
+            <li>border</li>
+            <li>border-radius</li>
+            <li>border-width</li>
+            <li>display</li>
+            <li>float</li>
+            <li>height,margin,padding,width</li>
+            <li>pseudo-class</li>
+        </ol>
+    </aside>
+    <body> <div class="contenido"> <header>
+        <p class="titulo">Curso CSS (Basico)</p>
+        </header>
+        <p>CSS es un lenguaje para diseñar las paginas webs y siempre esta a la par de HTML.</p>
+        <p>Hoy veras algo nuevo sobre CSS pero antes hay que repasar cosas sobre HTML.</p>
+        <p>En HTML hay cosas importantes para CSS, una de ellas es class="nombre-de-la-clase" que se encuentran adentro de etiquetas.</p>
+        <p>Un ejemplo puede ser: &lt;p class="clasecss"&gt;Este texto tiene una clase&lt;/p&gt;.</p>
+        <p>La utilidad de las clases en CSS es poder darle estilo a todo elemento que este en HTML con la misma clase.<br>Pero antes de adentrarnos a las clases hay que saber como crear y usar un CSS.</p>
+        <p>En Visual Studio Code en tu carpeta debes crear un archivo con extensión .css y vincularlo al archivo HTML.<br>(Los nombres recomendables para poner a tu carpeta son: index.html y styles.css)</p>
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2d6cDFoc3F3eWpybjc3dm02M2hmeDJjeWpxYW9oazVnemVidWxiMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Y0FDw269JgPqad4kk/giphy.gif" alt="Como crear un archivo CSS" class="multimedia">
+        <p>Despues de crear el CSS debes vincularlo al archivo HTML.<br>Para lograr eso debes entrar a tu HTML y agregar la etiqueta &lt;link rel="stylesheet" href="nombredelCSS.css"&gt; dentro de la sección &lt;head&gt;.</p>
+        <p>Para tener un contenido mas completo, puedes abrir este PDF: <a href="multimedia/TeoricoCSS.pdf" target="_blank">Curso CSS (Básico)</a></p>
+        <p>Ahora sabiendo esto vamos a aprender la sintaxis de CSS.</p>
+        <p>Para aplicar estilos al HTML, se debe llamar la etiqueta o clase que se va a decorar y entre llaves {} se definen los estilos.<br>Adentro de las llaves se llama por el nombre a la propiedad y despues de : el valor de la propiedad. (todo valor debe terminar con ;)</p>
+        <p>Aca hay un ejemplo de como se cambia el color a un texto con la etiqueta &lt;p&gt;: </p>
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Y2aWJsbGFwaXhweGhqcmZoaHB2cTZmbzc4OWExZ3J5NDdtMm4xayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hOMqNq9jp28hrAimxa/giphy.gif" alt="Sintaxis CSS" class="multimedia">
+        <a name="background-color"></a>
+        <h2 class="multicolor">background-color</h2>
+        <p>Ahora sabiendo la sintaxis de CSS, podemos empezar sabiendo la propiedad background-color.</p>
+        <p>Esta propiedad sirve para cambiar el color de fondo de un elemento.<br>Se puede usar para cambiar el color de una pagina o otros elementos que veremos mas tarde.</p>
+        <p>Para usar esta propiedad se debe escribir background-color seguido de dos puntos : y luego el valor del color que se quiere usar, para finalizar se debe poner un punto y coma ;</p>
+        <p>Ejemplo: background-color: red;</p>
+        <p>Se puede determinar el color de formas diferentes</p> <ul>
+            <li>Por nombre: background-color: red;</li>
+            <li>Por código hexadecimal: background-color: #ff0000;</li>
+            <li>Por valores RGB: background-color: rgb(255, 0, 0);</li>
+        </ul> <p>Tambien se puede cambiar el color mediante un menu que tiene el CSS en Visual Studio Code.</p>
+        <img src="multimedia/colormenu.png" alt="Menu de colores" class="multimedia">
+        <a name="font"></a>
+        <h2 class="font">font-family y font-size</h2>
+        <p>La propiedad font-family sirve para cambiar el tipo de letra de un texto.<br>Se pueden usar tipos de letras que ya existen o tambien se pueden usar tipos de letras descargados.</p>
+        <p>Para usar esta propiedad se debe escribir font-family seguido de dos puntos : y luego el nombre del tipo de letra que se quiere usar, para finalizar se debe poner un punto y coma ;</p>
+        <p>Ejemplo: font-family: Arial;</p>
+        <p>Hay fuentes precargadas en Visual Studio Code pero se puede usar fuentes descargadas, ya sea de Google Fonts o por el internet.</p>
+        <img src="multimedia/fuentes.png" alt="Fuentes distintas" class="multimedia" width="400px">
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
